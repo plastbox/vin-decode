@@ -59,7 +59,7 @@ request('https://en.wikipedia.org/wiki/Vehicle_identification_number', (error, r
 			name: value
 		});
 	});
-	fs.writeFileSync(__dirname + path.sep + 'data' + path.sep + 'manufactureres.js', 'export default ' + JSON.stringify(output, null, '\t'));
+	fs.writeFileSync(__dirname + path.sep + 'data' + path.sep + 'manufactmanufacturers.js', 'export default ' + JSON.stringify(output, null, '\t'));
 
 	var countries = Object.values(entries).reduce((carry, item) => {
 		item.countries.forEach(country => {
