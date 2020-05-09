@@ -1,4 +1,4 @@
-import manufacturers from './data/manufacters';
+import manufacturers from './data/manufacturers';
 import countries from './data/countries';
 import validate from './validator';
 
